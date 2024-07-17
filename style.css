@@ -1,0 +1,128 @@
+.Test {
+    text-align: center;
+    color: black;
+
+    font-family: 'CityNight-01';
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Computer-Pixel 7';
+    font-size: 56px;
+
+    font-weight: bolder;
+    color:slategray;
+}
+
+@font-face {
+    font-family: 'CityNight-01';
+    src: url("Media/Citynight.otf");
+}
+@font-face {
+    font-family: 'Computer-Pixel 7';
+    src: url("Media/Mentioned.otf");
+}
+@font-face {
+    font-family: 'TitleText';
+    src: url('Media/TheyPerished.ttf');
+}
+@font-face {
+    font-family: 'PixelMe';
+    src: url('Media/PixemonTrialRegular-p7nLK.ttf');
+}
+
+body {
+    background-image: url("Media/images.png");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.mainBox {
+    height: 27rem;
+    width:  27rem;
+
+    margin: auto;
+    margin-top: 12rem;
+
+    padding: 4rem;
+    align-self: center;
+
+    border: 10px beige;
+    background-color: rgba(240, 255, 255, 0.8);
+}
+
+.smallHeader {
+    font-family: 'Computer-Pixel 7';
+    font-size: 36px;
+
+    font-weight: bolder;
+    color:slategray;
+}
+
+.new {
+    font-family: 'TitleText';
+    font-size: 70px;
+
+    text-align: center;
+    margin-top: 0%;
+
+    font-weight: normal;
+    color: aliceblue;
+}
+
+.head {
+    height: 4rem;
+    width: 100%;
+
+    margin: 0%;
+
+    padding: 4rem;
+    align-self: center;
+
+    border: 10px beige;
+    background-color: rgba(27, 27, 27, 0.85);
+}
+
+button {
+    font-size: 32px;
+    font-weight: 500;
+
+    padding: 20px;
+    margin: 30px;
+
+    width: 350px;
+    background: rgba(240, 255, 255, 0.8);
+
+    font-family: 'PixelMe';
+
+    cursor: pointer;
+    border: none;
+
+    border-radius: 50px;
+    color: cornflowerblue;
+
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 269, 0.16),
+    -10px -10px 10px -1px rgba(240, 248, 255, 0.5);
+}
+
+button:hover {
+    font-size: 32px;
+    font-weight: 500;
+
+    padding: 20px;
+    margin: 30px;
+
+    width: 350px;
+    background: rgba(240, 255, 255, 0.8);
+
+    cursor: pointer;
+    border: none;
+
+    border-radius: 50px;
+    color: cornflowerblue;
+
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 269, 0.16),
+    inset -10px -10px 10px -1px rgba(240, 248, 255, 0.8);
+}
